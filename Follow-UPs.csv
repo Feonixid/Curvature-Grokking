@@ -1,0 +1,107 @@
+======================================================================
+FOLLOW-UP 1: extending suppress/baseline to n=30: 40 jobs across 2 device(s)
+======================================================================
+[1/40] suppress   seed 10 wd=1.0 (cuda:1) | grokked@1200     | durable  | final 1.000 | 165s
+[2/40] baseline   seed 10 wd=1.0 (cuda:0) | grokked@1200     | durable  | final 1.000 | 168s
+[3/40] baseline   seed 11 wd=1.0 (cuda:0) | grokked@800      | durable  | final 1.000 | 329s
+[4/40] suppress   seed 11 wd=1.0 (cuda:1) | grokked@1200     | durable  | final 1.000 | 329s
+[5/40] suppress   seed 12 wd=1.0 (cuda:1) | grokked@800      | durable  | final 1.000 | 490s
+[6/40] baseline   seed 12 wd=1.0 (cuda:0) | grokked@800      | durable  | final 1.000 | 494s
+[7/40] suppress   seed 13 wd=1.0 (cuda:1) | grokked@1200     | durable  | final 0.998 | 654s
+[8/40] baseline   seed 13 wd=1.0 (cuda:0) | grokked@1200     | durable  | final 1.000 | 656s
+[9/40] suppress   seed 14 wd=1.0 (cuda:1) | grokked@800      | durable  | final 1.000 | 817s
+[10/40] baseline   seed 14 wd=1.0 (cuda:0) | grokked@1000     | durable  | final 0.993 | 819s
+[11/40] suppress   seed 15 wd=1.0 (cuda:1) | grokked@1200     | durable  | final 0.992 | 980s
+[12/40] baseline   seed 15 wd=1.0 (cuda:0) | grokked@1000     | durable  | final 1.000 | 983s
+[13/40] suppress   seed 16 wd=1.0 (cuda:1) | grokked@800      | durable  | final 0.967 | 1144s
+[14/40] baseline   seed 16 wd=1.0 (cuda:0) | grokked@800      | LOST IT  | final 0.732 | 1145s
+[15/40] suppress   seed 17 wd=1.0 (cuda:1) | grokked@1000     | durable  | final 0.919 | 1305s
+[16/40] baseline   seed 17 wd=1.0 (cuda:0) | grokked@1200     | durable  | final 0.960 | 1309s
+[17/40] baseline   seed 18 wd=1.0 (cuda:0) | grokked@800      | durable  | final 1.000 | 1471s
+[18/40] suppress   seed 18 wd=1.0 (cuda:1) | grokked@600      | durable  | final 1.000 | 1471s
+[19/40] suppress   seed 19 wd=1.0 (cuda:1) | grokked@800      | LOST IT  | final 0.750 | 1633s
+[20/40] baseline   seed 19 wd=1.0 (cuda:0) | grokked@1200     | durable  | final 0.959 | 1635s
+[21/40] suppress   seed 20 wd=1.0 (cuda:1) | grokked@1200     | durable  | final 1.000 | 1796s
+[22/40] baseline   seed 20 wd=1.0 (cuda:0) | grokked@1200     | LOST IT  | final 0.216 | 1799s
+[23/40] suppress   seed 21 wd=1.0 (cuda:1) | grokked@1000     | durable  | final 0.998 | 1960s
+[24/40] baseline   seed 21 wd=1.0 (cuda:0) | grokked@1000     | LOST IT  | final 0.489 | 1961s
+[25/40] suppress   seed 22 wd=1.0 (cuda:1) | grokked@600      | durable  | final 1.000 | 2122s
+[26/40] baseline   seed 22 wd=1.0 (cuda:0) | grokked@800      | durable  | final 0.998 | 2127s
+[27/40] baseline   seed 23 wd=1.0 (cuda:0) | grokked@1000     | durable  | final 1.000 | 2288s
+[28/40] suppress   seed 23 wd=1.0 (cuda:1) | grokked@1200     | durable  | final 1.000 | 2288s
+[29/40] suppress   seed 24 wd=1.0 (cuda:1) | grokked@1000     | durable  | final 1.000 | 2450s
+[30/40] baseline   seed 24 wd=1.0 (cuda:0) | grokked@1200     | durable  | final 1.000 | 2452s
+[31/40] suppress   seed 25 wd=1.0 (cuda:1) | grokked@1200     | durable  | final 1.000 | 2614s
+[32/40] baseline   seed 25 wd=1.0 (cuda:0) | grokked@800      | durable  | final 1.000 | 2616s
+[33/40] suppress   seed 26 wd=1.0 (cuda:1) | grokked@1200     | LOST IT  | final 0.007 | 2778s
+[34/40] baseline   seed 26 wd=1.0 (cuda:0) | grokked@1400     | durable  | final 0.965 | 2778s
+[35/40] suppress   seed 27 wd=1.0 (cuda:1) | grokked@1000     | durable  | final 1.000 | 2940s
+[36/40] baseline   seed 27 wd=1.0 (cuda:0) | grokked@1000     | durable  | final 1.000 | 2943s
+[37/40] baseline   seed 28 wd=1.0 (cuda:0) | grokked@1000     | LOST IT  | final 0.865 | 3105s
+[38/40] suppress   seed 28 wd=1.0 (cuda:1) | grokked@1200     | durable  | final 0.997 | 3105s
+[39/40] suppress   seed 29 wd=1.0 (cuda:1) | grokked@800      | durable  | final 0.992 | 3267s
+[40/40] baseline   seed 29 wd=1.0 (cuda:0) | grokked@600      | durable  | final 0.974 | 3268s
+FOLLOW-UP 1 done in 3268.3s
+
+======================================================================
+FOLLOW-UP 2: weight_decay=0.1 ablation: 30 jobs across 2 device(s)
+======================================================================
+[1/30] suppress   seed  0 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.040 | 161s
+[2/30] baseline   seed  0 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.093 | 165s
+[3/30] suppress   seed  1 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.470 | 327s
+[4/30] baseline   seed  1 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.039 | 327s
+[5/30] suppress   seed  2 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.753 | 489s
+[6/30] baseline   seed  2 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.681 | 492s
+[7/30] suppress   seed  3 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.010 | 654s
+[8/30] baseline   seed  3 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.011 | 654s
+[9/30] suppress   seed  4 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.089 | 816s
+[10/30] baseline   seed  4 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.548 | 821s
+[11/30] baseline   seed  5 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.566 | 982s
+[12/30] suppress   seed  5 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.508 | 982s
+[13/30] suppress   seed  6 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.416 | 1143s
+[14/30] baseline   seed  6 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.734 | 1146s
+[15/30] suppress   seed  7 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.011 | 1308s
+[16/30] baseline   seed  7 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.008 | 1308s
+[17/30] suppress   seed  8 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.007 | 1469s
+[18/30] baseline   seed  8 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.406 | 1474s
+[19/30] baseline   seed  9 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.692 | 1634s
+[20/30] suppress   seed  9 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.016 | 1635s
+[21/30] suppress   seed 10 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.057 | 1796s
+[22/30] baseline   seed 10 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.038 | 1799s
+[23/30] suppress   seed 11 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.768 | 1960s
+[24/30] baseline   seed 11 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.355 | 1962s
+[25/30] suppress   seed 12 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.494 | 2123s
+[26/30] baseline   seed 12 wd=0.1 (cuda:0) | grokked@6000     | durable  | final 0.987 | 2125s
+[27/30] suppress   seed 13 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.243 | 2286s
+[28/30] baseline   seed 13 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.732 | 2288s
+[29/30] suppress   seed 14 wd=0.1 (cuda:1) | did not grok     | n/a      | final 0.291 | 2449s
+[30/30] baseline   seed 14 wd=0.1 (cuda:0) | did not grok     | n/a      | final 0.492 | 2450s
+FOLLOW-UP 2 done in 2449.7s
+
+======================================================================
+EXTENDED COMPARISON 
+======================================================================
+condition  n  durable_frac  ever_grokked_frac  final_acc_mean
+ baseline 30      0.766667                1.0        0.858563
+ suppress 30      0.900000                1.0        0.921706
+
+Contingency table:
+durable_grok  False  True 
+condition                 
+baseline          7     23
+suppress          3     27
+
+Fisher's exact test on durable_grok, baseline vs suppress (n=30 each): odds ratio=2.739, p=0.2990
+
+======================================================================
+WEIGHT-DECAY ABLATION 
+======================================================================
+wd=0.1:
+condition  n  durable_frac  ever_grokked_frac  final_acc_mean
+ baseline 15      0.066667           0.066667        0.425434
+ suppress 15      0.000000           0.000000        0.278186
+
+wd=1.0 (from above, n=30):
+condition  n  durable_frac  ever_grokked_frac  final_acc_mean
+ baseline 30      0.766667                1.0        0.858563
+ suppress 30      0.900000                1.0        0.921706

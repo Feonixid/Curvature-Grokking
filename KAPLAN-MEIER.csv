@@ -1,0 +1,6 @@
+======================================================================
+KAPLAN-MEIER MEDIAN GROKKING TIME
+======================================================================
+baseline  : median time-to-grok = 1200.0 steps (n=10, 10 events observed, 0 censored)
+suppress  : median time-to-grok = 1200.0 steps (n=10, 10 events observed, 0 censored)
+encourage : median time-to-grok = 1800.0 steps (n=24, 17 events observed, 7 censored)

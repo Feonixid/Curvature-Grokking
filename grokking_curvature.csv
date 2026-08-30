@@ -1,0 +1,66 @@
+[1/44] suppress   seed  0 (cuda:1) | grokked@1000     | LOST IT  | final acc 0.049 | max acc 1.000 | 160s elapsed
+[2/44] baseline   seed  0 (cuda:0) | grokked@1000     | durable  | final acc 1.000 | max acc 1.000 | 165s elapsed
+[3/44] suppress   seed  1 (cuda:1) | grokked@1000     | durable  | final acc 1.000 | max acc 1.000 | 323s elapsed
+[4/44] baseline   seed  1 (cuda:0) | grokked@1200     | durable  | final acc 0.998 | max acc 1.000 | 323s elapsed
+[5/44] suppress   seed  2 (cuda:1) | grokked@1200     | durable  | final acc 1.000 | max acc 1.000 | 481s elapsed
+[6/44] baseline   seed  2 (cuda:0) | grokked@1200     | durable  | final acc 1.000 | max acc 1.000 | 485s elapsed
+[7/44] baseline   seed  3 (cuda:0) | grokked@1200     | LOST IT  | final acc 0.008 | max acc 1.000 | 643s elapsed
+[8/44] suppress   seed  3 (cuda:1) | grokked@1000     | durable  | final acc 0.986 | max acc 1.000 | 644s elapsed
+[9/44] suppress   seed  4 (cuda:1) | grokked@1200     | durable  | final acc 1.000 | max acc 1.000 | 802s elapsed
+[10/44] baseline   seed  4 (cuda:0) | grokked@1000     | LOST IT  | final acc 0.513 | max acc 1.000 | 804s elapsed
+[11/44] suppress   seed  5 (cuda:1) | grokked@1200     | durable  | final acc 1.000 | max acc 1.000 | 962s elapsed
+[12/44] baseline   seed  5 (cuda:0) | grokked@1200     | LOST IT  | final acc 0.087 | max acc 1.000 | 965s elapsed
+[13/44] suppress   seed  6 (cuda:1) | grokked@1200     | durable  | final acc 1.000 | max acc 1.000 | 1124s elapsed
+[14/44] baseline   seed  6 (cuda:0) | grokked@800      | durable  | final acc 1.000 | max acc 1.000 | 1124s elapsed
+[15/44] suppress   seed  7 (cuda:1) | grokked@1400     | durable  | final acc 1.000 | max acc 1.000 | 1282s elapsed
+[16/44] baseline   seed  7 (cuda:0) | grokked@1600     | durable  | final acc 1.000 | max acc 1.000 | 1287s elapsed
+[17/44] baseline   seed  8 (cuda:0) | grokked@1200     | durable  | final acc 1.000 | max acc 1.000 | 1445s elapsed
+[18/44] suppress   seed  8 (cuda:1) | grokked@1400     | durable  | final acc 1.000 | max acc 1.000 | 1445s elapsed
+[19/44] suppress   seed  9 (cuda:1) | grokked@1000     | durable  | final acc 0.996 | max acc 1.000 | 1603s elapsed
+[20/44] baseline   seed  9 (cuda:0) | grokked@800      | durable  | final acc 1.000 | max acc 1.000 | 1605s elapsed
+[21/44] encourage  seed  1 (cuda:1) | grokked@1800     | LOST IT  | final acc 0.159 | max acc 0.981 | 1920s elapsed
+[22/44] encourage  seed  0 (cuda:0) | grokked@1800     | LOST IT  | final acc 0.893 | max acc 0.988 | 1926s elapsed
+[23/44] encourage  seed  3 (cuda:1) | did not grok     | n/a      | final acc 0.816 | max acc 0.874 | 2240s elapsed
+[24/44] encourage  seed  2 (cuda:0) | did not grok     | n/a      | final acc 0.546 | max acc 0.698 | 2242s elapsed
+[25/44] encourage  seed  5 (cuda:1) | did not grok     | n/a      | final acc 0.786 | max acc 0.883 | 2557s elapsed
+[26/44] encourage  seed  4 (cuda:0) | grokked@1400     | durable  | final acc 0.957 | max acc 0.994 | 2565s elapsed
+[27/44] encourage  seed  7 (cuda:1) | grokked@1800     | LOST IT  | final acc 0.678 | max acc 1.000 | 2880s elapsed
+[28/44] encourage  seed  6 (cuda:0) | grokked@2600     | LOST IT  | final acc 0.876 | max acc 0.983 | 2882s elapsed
+[29/44] encourage  seed  9 (cuda:1) | grokked@2200     | durable  | final acc 0.909 | max acc 0.968 | 3196s elapsed
+[30/44] encourage  seed  8 (cuda:0) | grokked@1000     | durable  | final acc 0.993 | max acc 0.996 | 3206s elapsed
+[31/44] encourage  seed 11 (cuda:1) | did not grok     | n/a      | final acc 0.295 | max acc 0.777 | 3521s elapsed
+[32/44] encourage  seed 10 (cuda:0) | grokked@1600     | LOST IT  | final acc 0.266 | max acc 0.951 | 3521s elapsed
+[33/44] encourage  seed 13 (cuda:1) | grokked@2600     | LOST IT  | final acc 0.732 | max acc 0.945 | 3835s elapsed
+[34/44] encourage  seed 12 (cuda:0) | grokked@800      | LOST IT  | final acc 0.827 | max acc 0.993 | 3845s elapsed
+[35/44] encourage  seed 14 (cuda:0) | grokked@1200     | LOST IT  | final acc 0.881 | max acc 1.000 | 4160s elapsed
+[36/44] encourage  seed 15 (cuda:1) | grokked@1000     | LOST IT  | final acc 0.809 | max acc 0.999 | 4160s elapsed
+[37/44] encourage  seed 17 (cuda:1) | did not grok     | n/a      | final acc 0.275 | max acc 0.755 | 4474s elapsed
+[38/44] encourage  seed 16 (cuda:0) | did not grok     | n/a      | final acc 0.275 | max acc 0.683 | 4480s elapsed
+[39/44] encourage  seed 19 (cuda:1) | grokked@2200     | LOST IT  | final acc 0.515 | max acc 0.936 | 4795s elapsed
+[40/44] encourage  seed 18 (cuda:0) | grokked@1200     | LOST IT  | final acc 0.796 | max acc 1.000 | 4800s elapsed
+[41/44] encourage  seed 21 (cuda:1) | grokked@2600     | LOST IT  | final acc 0.641 | max acc 0.976 | 5116s elapsed
+[42/44] encourage  seed 20 (cuda:0) | did not grok     | n/a      | final acc 0.886 | max acc 0.886 | 5118s elapsed
+[43/44] encourage  seed 23 (cuda:1) | grokked@1400     | durable  | final acc 1.000 | max acc 1.000 | 5433s elapsed
+[44/44] encourage  seed 22 (cuda:0) | grokked@800      | LOST IT  | final acc 0.249 | max acc 0.957 | 5438s elapsed
+
+Total time: 5437.5s (90.6 min)
+
+======================================================================
+SUMMARY
+======================================================================
+condition  n_seeds  grok_step_mean  grok_step_std  ever_grokked_frac  durable_grok_frac  final_test_acc_mean  max_test_acc_mean
+ baseline       10     1120.000000     222.710575           1.000000           0.700000             0.760489           1.000000
+ suppress       10     1160.000000     149.666295           1.000000           0.900000             0.903039           1.000000
+encourage       24     5833.333333    6543.614360           0.708333           0.166667             0.669173           0.926022
+
+ grok_step: does the intervention shift WHEN it first crosses threshold?
+suppress   vs baseline: t=+0.447, p=0.6601, Cohen's d=+0.200 -> LATER
+encourage  vs baseline: t=+2.209, p=0.0344, Cohen's d=+0.997 -> LATER
+
+ durable_grok_frac: does the intervention change whether grokking STICKS?
+suppress   vs baseline (Fisher's exact test on durable_grok): baseline 7/10 durable, suppress 9/10 durable, odds ratio=0.259, p=0.5820
+encourage  vs baseline (Fisher's exact test on durable_grok): baseline 7/10 durable, encourage 4/24 durable, odds ratio=11.667, p=0.0048
+
+ encourage specifically: blocked or just delayed?
+7/24 encourage seeds never crossed 0.9 within 16000 steps.
+Their max test accuracy ever reached: [0.874, 0.698, 0.883, 0.777, 0.755, 0.683, 0.886]

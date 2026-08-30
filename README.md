@@ -1,7 +1,5 @@
 # Curvature-Grokking
 
-# Curvature-Grokking
-
 Does the "commutator defect" — a measure of non-commutativity between two
 transformer blocks' weight-update directions — actually *cause* grokking, or
 does it just correlate with it?

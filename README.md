@@ -76,3 +76,8 @@ context).
 ## Zenodo
 
 [![DOI](https://zenodo.org/badge/1351563598.svg)](https://doi.org/10.5281/zenodo.22666518)
+
+## License
+
+MIT, see LICENSE.
+

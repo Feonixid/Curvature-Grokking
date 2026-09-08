@@ -72,3 +72,7 @@ update those paths if running locally.
 If you use this code or build on the result, please cite the accompanying
 paper (see `paper_grokking_curvature.tex` for full references and BibTeX
 context).
+
+## Zenodo
+
+[![DOI](https://zenodo.org/badge/1351563598.svg)](https://doi.org/10.5281/zenodo.22666518)
